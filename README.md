@@ -1,2 +1,16 @@
 # FullPortScanner
-A port scanner which converts list of domains to IP addresses and then scan those IPs for open ports using masscan
+
+A port scanner bash script which converts list of domains to IP addresses and then scan those IPs for open ports using masscan
+
+# Prerequisite
+
+Installed masscan (https://github.com/robertdavidgraham/masscan)
+Installed filget  ( sudo apt install figlet )
+Change the line 22 to your masscan binary path
+Run script as root
+
+# Usage
+sudo su
+./FPS.sh /path/to/list/of/domains.txt
+
+
