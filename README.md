@@ -1,6 +1,6 @@
 # FullPortScanner
 
-A port scanner bash script which converts list of domains to IP addresses and then scan those IPs for open ports using masscan
+A port scanner bash script which converts list of domains to IP addresses and then scan those IPs for open ports using masscan. The script scans all the ports (TCP/UDP) but can be changed accordingly by edited the masscan command on line 22.
 
 # Prerequisite
 
