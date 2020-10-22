@@ -11,7 +11,8 @@ A port scanner bash script which converts list of domains to IP addresses and th
 4) Run script as root
 ```
 # Usage
+```
 sudo su
 ./FPS.sh /path/to/list/of/domains.txt
-
+```
 
