@@ -14,4 +14,4 @@ A Bash Script to scan list of hosts for open ports using masscan and runninng nm
 ```
 sudo ./FPS.sh /path/to/list/of/domains.txt
 ```
-
+After completion check results.txt for complete scan results
