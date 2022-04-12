@@ -1,13 +1,14 @@
 # FullPortScanner
 
-A port scanner bash script which converts list of domains to IP addresses and then scan those IPs for open ports using masscan. The script scans all the ports (TCP/UDP) but can be changed accordingly by edited the masscan command on line 22.
+A Bash Script to scan list of hosts for open ports using masscan and runninng nmap on those ports to identify running services by @k4k4r07 (https://twitter.com/k4k4r07). The script scans all the TCP ports but can be changed accordingly by editing the masscan command on line 41.
 
 # Prerequisite
 
 ```
 1) Installed masscan (https://github.com/robertdavidgraham/masscan)
 2) Installed filget  ( sudo apt install figlet )
-3) Change the line 23 to your masscan binary path
+3) Installed nmap (sudo apt install nmap)
+3) Change the line 41 to your masscan binary path
 ```
 # Usage
 ```
